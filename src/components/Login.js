@@ -7,8 +7,8 @@ class Login extends Component {
   constructor() {
     super();
     this.state = {
-      email: 'pruebafrontend@elemetrica.com',
-      password: 'Cr1st0V13n3'
+      email: '',
+      password: ''
     };
 
     this.handleChange = this
